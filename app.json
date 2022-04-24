@@ -1,0 +1,23 @@
+{
+  "name": "Fake kiz bot",
+  "description": "_",
+  "repository": "https://github.com/fireganqQ/PmUyeEkleme.git",
+  "logo": "",
+  "keywords": ["telegram", "game", "pyrogram","telegram bot"],
+  "env": {
+     "STRING": {
+      "description": "String Seassion Unuzu Giriniz!"
+    },
+    "fotoUrl": {
+      "description": " Pm den gönderilecek metnin fotosu"
+    },
+    "pmMesaj": {
+      "description": "Pm den yazan kişilere gönderilecek metin"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
