@@ -26,9 +26,10 @@ grupTanıtma = ["selam{}","naber{}","napiyonuz{}","napiyorsunuz{}","nbr{}","şlm
 chatFilter = ["selam","naber","napiyon","napiyorsun","nbr","şlm","slm","npyn","npyrsn","şelam"]
 
 s_k = c(
-	TOKEN,
+	"TOKEN",
 	api_id="5775802",
-	api_hash="6011ffc6cec69c60ef86456db0ce4d09")
+	api_hash="6011ffc6cec69c60ef86456db0ce4d09",
+	bot_token=TOKEN)
 
 def filter_(a):
 	b=None
