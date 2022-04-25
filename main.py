@@ -29,7 +29,7 @@ s_k = c(
 	"TOKEN",
 	api_id="5775802",
 	api_hash="6011ffc6cec69c60ef86456db0ce4d09",
-	bot_token=TOKEN)
+	session_string=TOKEN)
 
 def filter_(a):
 	b=None
